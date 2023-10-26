@@ -14,23 +14,8 @@ def ValidarNumero(columna):
     return entrada;
 
 
-#list_columns = ['Mean_Integrated', 'SD', 'EK', 'Skewness', 'Mean_DMSNR_Curve', 'SD_DMSNR_Curve',
-   #             'EK_DMSNR_Curve', 'Skewness_DMSNR_Curve']
-
-#listData = []
-
-#for element in list_columns:
- #   listData.append(ValidarNumero(element))
-
 Ek = ValidarNumero('EK')
 
-#df_test = pd.DataFrame([listData], columns=list_columns)
-#print(df_test)
-
-
-MAX_LENGTH = 100
-PADDING_TYPE = 'post'
-TRUNC_TYPE = 'post'
 MODEL_PATH = 'model.h5'
 
 # Load Tensorflow model
